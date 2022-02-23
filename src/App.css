@@ -1,3 +1,9 @@
+body {
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: 600;
+  background-image: url("https://www.decorfacil.com/wp-content/uploads/2018/04/20180425pigues-1200x900.jpg");
+}
+
 footer {
   text-align: center;
   color: #242424;
