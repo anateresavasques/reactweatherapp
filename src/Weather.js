@@ -51,8 +51,9 @@ export default function Weather() {
               <img
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
                 alt="Mostly Cloudy"
+                className="float-left"
               />
-              <span className="temperature">{temperature}</span>
+              <span className="temperature">{Math.round(temperature)}</span>
             </div>
             <div className="col-6">
               <ul>
@@ -68,9 +69,8 @@ export default function Weather() {
   } else {
     const apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
     let city = "New York";
-    let apiUrl = `http://api.openweather.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
-
     return "Loading...";
   }
 }
