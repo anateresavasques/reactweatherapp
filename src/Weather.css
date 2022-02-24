@@ -85,3 +85,10 @@ li:first-letter {
 .temperature {
   color: #ffffff;
 }
+
+.unit {
+  position: relative;
+  font-size: 15px;
+  top: -1px;
+  color: #ffffff;
+}
