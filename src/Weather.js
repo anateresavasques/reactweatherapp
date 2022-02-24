@@ -10,6 +10,7 @@ export default function Weather() {
     setWeatherData({
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
+      date: "Wednesday 07:00",
       description: response.data.weather[0].description,
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
       wind: response.data.wind.speed,
@@ -51,7 +52,7 @@ export default function Weather() {
           </form>
           <h1>{weatherData.city}</h1>
           <ul>
-            <li>Wednesday 07:00 </li>
+            <li>{weatherData.date}</li>
             <li>{weatherData.description}</li>
           </ul>
           <div className="row mt-3">
