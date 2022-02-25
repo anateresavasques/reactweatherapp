@@ -50,6 +50,13 @@ li:first-letter {
   border-radius: 10px;
 }
 
+.Weather canvas {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
 .overview {
   margin-bottom: 20px;
 }
@@ -84,6 +91,7 @@ li:first-letter {
 
 .temperature {
   color: #ffffff;
+  top: -1px;
 }
 
 .unit {
