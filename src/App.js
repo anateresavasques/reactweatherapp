@@ -8,7 +8,12 @@ export default function App() {
       <Weather defaultCity="New York" />
       <footer>
         This project was coded by{" "}
-        <a href="https://portfolio-atcv.netlify.app/" target="_blank" id="link">
+        <a
+          href="https://portfolio-atcv.netlify.app/"
+          target="_blank"
+          id="link"
+          rel="noreferrer"
+        >
           Ana Teresa
         </a>{" "}
         and is{" "}
@@ -16,6 +21,7 @@ export default function App() {
           href="https://github.com/anateresavasques/reactweatherapp"
           target="_blank"
           id="link"
+          rel="noreferrer"
         >
           open-sourced on GitHub
         </a>
