@@ -5,30 +5,28 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Weather defaultCity="New York" />
+      <Weather defaultCity="New York" />
 
-        <footer>
-          This project was coded by{" "}
-          <a
-            href="https://portfolio-atcv.netlify.app/"
-            target="_blank"
-            id="link"
-            rel="noreferrer"
-          >
-            Ana Teresa
-          </a>{" "}
-          and is{" "}
-          <a
-            href="https://github.com/anateresavasques/reactweatherapp"
-            target="_blank"
-            id="link"
-            rel="noreferrer"
-          >
-            open-sourced on GitHub
-          </a>
-        </footer>
-      </div>
+      <footer>
+        This project was coded by{" "}
+        <a
+          href="https://portfolio-atcv.netlify.app/"
+          target="_blank"
+          id="link"
+          rel="noreferrer"
+        >
+          Ana Teresa
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/anateresavasques/reactweatherapp"
+          target="_blank"
+          id="link"
+          rel="noreferrer"
+        >
+          open-sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
